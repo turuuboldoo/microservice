@@ -117,6 +117,13 @@ Kotlin хэлний албан ёсны үнэгүй IDE суулгаарай
 ```
 sudo snap install intellij-idea-community --classic
 ```
+
+## NodeJS
+```
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 ## Git
 Git суулгах
 ```
