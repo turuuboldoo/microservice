@@ -1,0 +1,7 @@
+#!/bin/sh
+# This is a comment!
+echo Hello World
+echo
+echo PostgreSQL     http://127.0.0.1:5432 or http://127.0.0.1/pgadmin4/
+echo
+echo Vue3 app       http://127.0.0.1:34002

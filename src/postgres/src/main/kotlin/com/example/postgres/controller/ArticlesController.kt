@@ -15,8 +15,9 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/articles")
 class ArticlesController(
-    @Autowired val dao: ArticlesDao
+    @Autowired private val dao: ArticlesDao
 ) {
+
     @GetMapping
     fun getArticles() = mapOf("data" to dao.getAllArticles())
 
